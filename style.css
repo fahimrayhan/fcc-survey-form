@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&display=swap');
+:root{
+  --color-azure: #F0FFFF;
+  --color-coral: #FF7F50;
+  --color-lightsalmon: #FFA07A;
+  --color-tomato: #B22222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Bellota', sans-serif;
+    background-color: var(--color-azure);
+}
+
+.container{
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+#info{
+    text-align: center;
+}
+
+
+.userinfo input{
+    height: 35px;
+    margin-bottom: 10px;
+}
+.userinfo input:focus{
+    border: 3px solid #8080ff;
+    outline: none;
+    border-radius: 3%;
+}
+
+#dropdown{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+}
+
+.Layout{
+    display: grid;
+    grid-row: auto;
+}
+
+.Layout p{
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+#opinion:focus{
+    border: 3px solid #8080ff;
+    outline: none;
+}
+
+.btn{
+    width: 100%;
+    margin: 10px 0 20px 0;
+    height: 35px;
+}
